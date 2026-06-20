@@ -300,7 +300,7 @@ export const App: React.FC = () => {
           onClick={() => setTodosError('')}
         />
         {/* show only one message at a time */}
-        {'Unable to load todos'}
+        {todosError}
         {/* <br />
         Title should not be empty
         <br />
